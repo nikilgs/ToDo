@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import TaskManager from "./components/TaskManager";
 import Login from "./components/Login";
+import Test from "./Test"
 function App() {
   const [user, setUser] = useState(null);
 
@@ -18,6 +19,7 @@ function App() {
         <>
           <p>Welcome, {user.email}</p>
           <TaskManager />
+          <Test />
         </>
       )}
     </div>
