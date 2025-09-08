@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import TaskManager from "./components/TaskManager";
 import Login from "./components/Login";
-import Test from "./component1/Test"
+import Test from "./components1/Test"
 function App() {
   const [user, setUser] = useState(null);
 
